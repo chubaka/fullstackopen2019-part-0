@@ -1,0 +1,7 @@
+note over browser:
+browser executes the js event handler
+on form submit that redraws the notes and
+sends the new note to the server
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa  [{ content: "test3: "2019-08-07" }]
+server-->browser: response 201
